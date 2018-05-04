@@ -1,0 +1,73 @@
+2018-05-03T14:52:00.6314565-04:00  [INF] Starting @angular/cli on port 35233... (3affbbaa)
+2018-05-03T14:52:01.1306565-04:00  [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=QuickApp " (9958f5bb)
+2018-05-03T14:52:03.9854565-04:00  [INF] Executed DbCommand ("136"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-03T14:52:04.0010565-04:00  [INF] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-03T14:52:04.0478565-04:00  [INF] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2018-05-03T14:52:04.0634565-04:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2018-05-03T14:52:04.1882565-04:00  [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-05-03T14:52:04.2194565-04:00  [INF] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-05-03T14:52:04.6250565-04:00 0HLDH4RR81UG6:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/   (ca22a1cb)
+2018-05-03T14:52:06.0446565-04:00  [INF] > quickapp@2.5.3 start C:\AppRepo\QuickApp\QuickApp\ClientApp
+> ng serve --extract-css "--port" "35233"
+
+** NG Live Development Server is listening on localhost:35233, open your browser on http://localhost:35233/ **
+ (338386a6)
+2018-05-03T14:52:13.9538565-04:00  [INF] webpack: wait until bundle finished: /
+ (4d787c36)
+2018-05-03T14:52:20.3186565-04:00  [INF] Date: 2018-05-03T18:52:20.303Z
+ (7ccfc668)
+2018-05-03T14:52:20.4278565-04:00  [INF] Hash: ed14f98fa8dab0c3d2c5
+Time: 13962ms
+chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+chunk {main} main.bundle.js (main) 1.44 MB [initial] [rendered]
+chunk {polyfills} polyfills.bundle.js (polyfills) 676 kB [initial] [rendered]
+chunk {scripts} scripts.bundle.js (scripts) 291 kB [initial] [rendered]
+chunk {styles} styles.bundle.css (styles) 293 kB [initial] [rendered]
+chunk {vendor} vendor.bundle.js (vendor) 15.8 MB [initial] [rendered]
+
+ (d6e28b3f)
+2018-05-03T14:52:20.4434565-04:00  [INF] webpack: Compiled successfully.
+ (f274984e)
+2018-05-03T14:52:20.5058565-04:00 0HLDH4RR81UG6:00000001 [INF] Request finished in 15858.3184ms 200 text/html; charset=UTF-8 (791a596a)
+2018-05-03T14:52:20.5214565-04:00 0HLDH4RR81UG9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/inline.bundle.js   (ca22a1cb)
+2018-05-03T14:52:20.5838565-04:00 0HLDH4RR81UGB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/vendor.bundle.js   (ca22a1cb)
+2018-05-03T14:52:20.5994565-04:00 0HLDH4RR81UG8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/styles.bundle.css   (ca22a1cb)
+2018-05-03T14:52:20.6306565-04:00 0HLDH4RR81UGA:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/polyfills.bundle.js   (ca22a1cb)
+2018-05-03T14:52:20.6774565-04:00 0HLDH4RR81UGC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/scripts.bundle.js   (ca22a1cb)
+2018-05-03T14:52:20.7242565-04:00 0HLDH4RR81UG6:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:35191/assets/styles-external.css   (ca22a1cb)
+2018-05-03T14:52:21.0518565-04:00 0HLDH4RR81UG9:00000001 [INF] Request finished in 540.7323ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-03T14:52:21.0830565-04:00 0HLDH4RR81UG9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:35191/main.bundle.js   (ca22a1cb)
+2018-05-03T14:52:21.4730565-04:00 0HLDH4RR81UG9:00000002 [INF] Request finished in 383.7548ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-03T14:52:21.8640565-04:00 0HLDH4RR81UG8:00000001 [INF] Request finished in 1353.7463ms 200 text/css; charset=UTF-8 (791a596a)
+2018-05-03T14:52:22.0356565-04:00 0HLDH4RR81UG6:00000002 [INF] Request finished in 1300.0007ms 200 text/css; charset=UTF-8 (791a596a)
+2018-05-03T14:52:22.0356565-04:00 0HLDH4RR81UGC:00000001 [INF] Request finished in 1450.9371ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-03T14:52:22.1136565-04:00 0HLDH4RR81UGA:00000001 [INF] Request finished in 1522.4915ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-03T14:52:22.7688565-04:00 0HLDH4RR81UGB:00000001 [INF] Request finished in 2251.2452ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-03T14:52:23.3772565-04:00 0HLDH4RR81UG9:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:35191/favicon.ico   (ca22a1cb)
+2018-05-03T14:52:23.3772565-04:00 0HLDH4RR81UG9:00000003 [INF] Sending file. Request path: '"/favicon.ico"'. Physical path: '"C:\AppRepo\QuickApp\QuickApp\wwwroot\favicon.ico"' (27b0a520)
+2018-05-03T14:52:23.3928565-04:00 0HLDH4RR81UG9:00000003 [INF] Request finished in 21.4313ms 200 image/x-icon (791a596a)
+2018-05-03T14:52:25.1244565-04:00 0HLDH4RR81UG8:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:35191/glyphicons-halflings-regular.448c34a56d699c29117a.woff2   (ca22a1cb)
+2018-05-03T14:52:25.1868565-04:00 0HLDH4RR81UG8:00000002 [INF] Request finished in 62.0071ms 200 font/woff2; charset=UTF-8 (791a596a)
+2018-05-03T14:52:25.1868565-04:00 0HLDH4RR81UG6:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:35191/sockjs-node/info?t=1525373545164   (ca22a1cb)
+2018-05-03T14:52:25.2648565-04:00 0HLDH4RR81UG6:00000003 [INF] Request finished in 67.8737ms 200 application/json; charset=UTF-8 (791a596a)
+2018-05-03T14:52:25.2648565-04:00 0HLDH4RR81UGC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:35191/sockjs-node/693/z5qotvnw/websocket   (ca22a1cb)
+2018-05-03T14:52:25.2648565-04:00 0HLDH4RR81UGC:00000002 [INF] Policy execution successful. (0204925d)
+2018-05-03T14:52:25.3584565-04:00 0HLDH4RR81UGC:00000002 [INF] Request finished in 94.9018ms 400  (791a596a)
+2018-05-03T14:52:25.3584565-04:00 0HLDH4RR81UGA:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:35191/sockjs-node/693/sdqitef2/xhr_streaming?t=1525373545348  0 (ca22a1cb)

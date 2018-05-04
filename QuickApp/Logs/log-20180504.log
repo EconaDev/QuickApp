@@ -1,0 +1,70 @@
+2018-05-04T14:08:52.5646083-04:00  [INF] Starting @angular/cli on port 8175... (0a0defb8)
+2018-05-04T14:08:53.8759523-04:00  [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=QuickApp " (9958f5bb)
+2018-05-04T14:09:00.9024373-04:00  [INF] Executed DbCommand ("154"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-04T14:09:00.9314228-04:00  [INF] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'__EFMigrationsHistory');" (0723d8ff)
+2018-05-04T14:09:00.9644063-04:00  [INF] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];" (0723d8ff)
+2018-05-04T14:09:00.9903933-04:00  [INF] No migrations were applied. The database is already up to date. (503cba9d)
+2018-05-04T14:09:01.1253258-04:00  [INF] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AspNetUsers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-05-04T14:09:01.1912928-04:00  [INF] Executed DbCommand ("56"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AppCustomers] AS [a])
+    THEN CAST(1 AS BIT) ELSE CAST(0 AS BIT)
+END" (0723d8ff)
+2018-05-04T14:09:01.5581093-04:00 0HLDHT8EK2FH9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/   (ca22a1cb)
+2018-05-04T14:09:37.7779903-04:00  [INF] > quickapp@2.5.3 start C:\AppRepo\QuickApp\QuickApp\ClientApp
+> ng serve --extract-css "--port" "8175"
+
+** NG Live Development Server is listening on localhost:8175, open your browser on http://localhost:8175/ **
+ (5d109f1c)
+2018-05-04T14:09:49.1962783-04:00  [INF] webpack: wait until bundle finished: /
+ (4d787c36)
+2018-05-04T14:09:57.8889298-04:00  [INF] Date: 2018-05-04T18:09:57.911Z
+ (2d26b71b)
+2018-05-04T14:09:58.2037723-04:00  [INF] Hash: ed14f98fa8dab0c3d2c5
+Time: 20054ms
+chunk {inline} inline.bundle.js (inline) 3.85 kB [entry] [rendered]
+chunk {main} main.bundle.js (main) 1.44 MB [initial] [rendered]
+chunk {polyfills} polyfills.bundle.js (polyfills) 676 kB [initial] [rendered]
+chunk {scripts} scripts.bundle.js (scripts) 291 kB [initial] [rendered]
+chunk {styles} styles.bundle.css (styles) 293 kB [initial] [rendered]
+chunk {vendor} vendor.bundle.js (vendor) 15.8 MB [initial] [rendered]
+
+ (cdaee9c6)
+2018-05-04T14:09:58.2097693-04:00  [INF] webpack: Compiled successfully.
+ (f274984e)
+2018-05-04T14:09:58.2987248-04:00 0HLDHT8EK2FH9:00000001 [INF] Request finished in 56757.4341ms 200 text/html; charset=UTF-8 (791a596a)
+2018-05-04T14:09:58.3966758-04:00 0HLDHT8EK2FH9:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:35191/assets/styles-external.css   (ca22a1cb)
+2018-05-04T14:09:58.4116683-04:00 0HLDHT8EK2FHC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/polyfills.bundle.js   (ca22a1cb)
+2018-05-04T14:09:58.4346568-04:00 0HLDHT8EK2FHB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/inline.bundle.js   (ca22a1cb)
+2018-05-04T14:09:58.5036223-04:00 0HLDHT8EK2FHE:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/styles.bundle.css   (ca22a1cb)
+2018-05-04T14:09:58.5466008-04:00 0HLDHT8EK2FHD:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/scripts.bundle.js   (ca22a1cb)
+2018-05-04T14:09:58.6645418-04:00 0HLDHT8EK2FHF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:35191/vendor.bundle.js   (ca22a1cb)
+2018-05-04T14:09:58.8954263-04:00 0HLDHT8EK2FH9:00000002 [INF] Request finished in 511.1308ms 200 text/css; charset=UTF-8 (791a596a)
+2018-05-04T14:09:58.9124178-04:00 0HLDHT8EK2FH9:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:35191/main.bundle.js   (ca22a1cb)
+2018-05-04T14:09:59.5151163-04:00 0HLDHT8EK2FH9:00000003 [INF] Request finished in 604.4078ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-04T14:09:59.6680398-04:00 0HLDHT8EK2FHB:00000001 [INF] Request finished in 1263.3173ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-04T14:09:59.8789343-04:00 0HLDHT8EK2FHD:00000001 [INF] Request finished in 1474.6674ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-04T14:09:59.8929273-04:00 0HLDHT8EK2FHE:00000001 [INF] Request finished in 1468.7899ms 200 text/css; charset=UTF-8 (791a596a)
+2018-05-04T14:09:59.9299088-04:00 0HLDHT8EK2FHC:00000001 [INF] Request finished in 1550.8015ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-04T14:10:00.6105683-04:00 0HLDHT8EK2FHF:00000001 [INF] Request finished in 2129.0688ms 200 application/javascript; charset=UTF-8 (791a596a)
+2018-05-04T14:10:02.9074193-04:00 0HLDHT8EK2FH9:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:35191/glyphicons-halflings-regular.448c34a56d699c29117a.woff2   (ca22a1cb)
+2018-05-04T14:10:02.9384038-04:00 0HLDHT8EK2FHB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:35191/sockjs-node/info?t=1525457402926   (ca22a1cb)
+2018-05-04T14:10:03.0463498-04:00 0HLDHT8EK2FH9:00000004 [INF] Request finished in 136.8033ms 200 font/woff2; charset=UTF-8 (791a596a)
+2018-05-04T14:10:03.0643408-04:00 0HLDHT8EK2FHB:00000002 [INF] Request finished in 121.5558ms 200 application/json; charset=UTF-8 (791a596a)
+2018-05-04T14:10:03.0733363-04:00 0HLDHT8EK2FHD:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:35191/sockjs-node/991/30xbh1ed/websocket   (ca22a1cb)
+2018-05-04T14:10:03.0763348-04:00 0HLDHT8EK2FHD:00000002 [INF] Policy execution successful. (0204925d)
+2018-05-04T14:10:03.1443008-04:00 0HLDHT8EK2FHD:00000002 [INF] Request finished in 72.2946ms 400  (791a596a)
+2018-05-04T14:10:03.1492983-04:00 0HLDHT8EK2FHE:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:35191/sockjs-node/991/bm4wizbb/xhr_streaming?t=1525457403148  0 (ca22a1cb)

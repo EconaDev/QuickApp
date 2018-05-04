@@ -1,0 +1,14 @@
+C:\AppRepo\QuickApp\QuickApp\bin\Debug\netcoreapp2.0\QuickApp.deps.json
+C:\AppRepo\QuickApp\QuickApp\bin\Debug\netcoreapp2.0\QuickApp.runtimeconfig.json
+C:\AppRepo\QuickApp\QuickApp\bin\Debug\netcoreapp2.0\QuickApp.runtimeconfig.dev.json
+C:\AppRepo\QuickApp\QuickApp\bin\Debug\netcoreapp2.0\QuickApp.dll
+C:\AppRepo\QuickApp\QuickApp\bin\Debug\netcoreapp2.0\QuickApp.pdb
+C:\AppRepo\QuickApp\QuickApp\bin\Debug\netcoreapp2.0\DAL.dll
+C:\AppRepo\QuickApp\QuickApp\bin\Debug\netcoreapp2.0\DAL.pdb
+C:\AppRepo\QuickApp\QuickApp\obj\Debug\netcoreapp2.0\QuickApp.csprojResolveAssemblyReference.cache
+C:\AppRepo\QuickApp\QuickApp\obj\Debug\netcoreapp2.0\QuickApp.csproj.CoreCompileInputs.cache
+C:\AppRepo\QuickApp\QuickApp\obj\Debug\netcoreapp2.0\QuickApp.AssemblyInfoInputs.cache
+C:\AppRepo\QuickApp\QuickApp\obj\Debug\netcoreapp2.0\QuickApp.AssemblyInfo.cs
+C:\AppRepo\QuickApp\QuickApp\obj\Debug\netcoreapp2.0\QuickApp.csproj.CopyComplete
+C:\AppRepo\QuickApp\QuickApp\obj\Debug\netcoreapp2.0\QuickApp.dll
+C:\AppRepo\QuickApp\QuickApp\obj\Debug\netcoreapp2.0\QuickApp.pdb
